@@ -1,0 +1,39 @@
+site_name: VTS API
+site_url: https://vts-api.rtfd.io/
+repo_name: timtaran/vts-api
+repo_url: https://github.com/timtaran/vts-api/
+edit_uri: edit/master/docs/
+site_author: 'Timtaran'
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+
+nav:
+  - Introduction:
+    - 'index.md'
+
+extra_css:
+  - _css/style.css
