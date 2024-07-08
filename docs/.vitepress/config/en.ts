@@ -28,13 +28,8 @@ function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: 'Guide',
-            link: '/guide/what-is-vitepress',
+            link: '/guide/about-vts',
             activeMatch: '/guide/'
-        },
-        {
-            text: 'Reference',
-            link: '/reference/site-config',
-            activeMatch: '/reference/'
         },
         {
             text: version,
