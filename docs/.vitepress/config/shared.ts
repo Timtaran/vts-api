@@ -11,7 +11,8 @@ export const shared = defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 
   rewrites: {
-    'en/:rest*': ':rest*'
+    'pages/en/:rest*': ':rest*',
+    'pages/ru/:rest*': 'ru/:rest*'
   },
 
   themeConfig: {
