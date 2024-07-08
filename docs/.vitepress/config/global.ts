@@ -1,0 +1,3 @@
+// GlOBAL CONSTS HERE
+
+export const version = "0.0.1-dev";

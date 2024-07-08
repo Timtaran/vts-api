@@ -163,3 +163,7 @@ cython_debug/
 
 # Local Test File
 test.py
+
+docs/.vitepress/dist
+docs/.vitepress/cache
+node_modules

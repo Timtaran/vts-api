@@ -1,32 +1,27 @@
-# VTS-API
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-Python framework written for VTube Studio.
+hero:
+  name: "VTS-API"
+  tagline: Asynchronous strict-typed VTubeStudio API framework
+  image:
+    src: /logo.png
+    alt: ""
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: /guide/getting-started
+    - theme: alt
+      text: About VTubeStudio
+      link: /guide/about-vts
 
-## Preparing
+features:
+  - icon: ⚒️
+    title: Strict-typed
+    details: Provides strong typing for increased reliability and easy error detection
+  - icon: 🏃‍♂️
+    title: Asynchronous
+    details: Designed using aiohttp to provide asynchronous support
+---
 
-First install the framework using command below:
-```shell
-pip install vts-api
-```
-
-## Example usage
-
-In this example, we process each new event that the server has sent us an authorization token.
-
-```python
-from vts_api import Connector, EventTypes 
-from vts_api.types import AuthenticationTokenResponse
-
-from loguru import logger
-
-vts = Connector(websocket_ip="ws://127.0.0.1:8001",  # All params is optional
-                plugin_name="Test Integration", 
-                plugin_developer="Timtaran") 
-
-
-@vts.listener.on_event(EventTypes.AuthenticationTokenResponse)  # Handler registration 
-async def on_token_response(response: AuthenticationTokenResponse) -> None:
-	logger.info(f'Server send authentication_token: {response.data.authentication_token}')
-
-vts.run_polling()
-```

@@ -1,0 +1,56 @@
+/* Applying main properties */
+:root {
+  --vp-c-bg: #F0F0F0;
+  --vp-c-bg-alt: #E2E2E2;
+  --vp-c-brand-1: #898DFC;
+  --vp-c-brand-2: #919CFF;
+  --vp-c-brand-3: #858DFF;
+
+  --vp-home-hero-image-filter: blur(44px);
+  --vp-border-width: 5px;
+  --vp-border-radius: 15px;
+
+  --vp-custom-block-warning-border: var(--vp-c-yellow-soft);
+  --vp-custom-block-warning-bg: var(--vp-c-warning-soft);
+
+  --vp-custom-block-info-border: var(--vp-c-default-soft);
+  --vp-custom-block-info-bg: var(--vp-c-default-soft);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #8286FF 30%,
+    #8587FF
+  );
+  --vp-home-hero-image-background-image: -webkit-linear-gradient(
+    120deg,
+    #989AFF 30%,
+    #FFED9D
+  );
+}
+
+/* Applying separate properties for dark theme */
+.dark {
+  --vp-c-bg: #121212;
+  --vp-c-bg-alt: #161616;
+  --vp-c-brand-1: #8B8DFF;
+  --vp-c-brand-2: #8F91FF;
+  --vp-c-brand-3: #8587FF;
+
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    180deg,
+    #CECDFF,
+    #C4C7FF
+  );
+  --vp-home-hero-image-background-image: -webkit-linear-gradient(
+    120deg,
+    #8587FF,
+    #FFE985
+  );
+}
+
+/* Applying extra properties */
+.custom-block {
+  border-radius: var(--vp-border-radius);
+  border-width: var(--vp-border-width);
+}
