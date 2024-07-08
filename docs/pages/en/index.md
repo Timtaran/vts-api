@@ -19,7 +19,7 @@ hero:
 features:
   - icon: ⚒️
     title: Strict-typed
-    details: Provides strong typing for increased reliability and easy error detection
+    details: Provides strong typing for increased reliability and easy code writing
   - icon: 🏃‍♂️
     title: Asynchronous
     details: Designed using aiohttp to provide asynchronous support

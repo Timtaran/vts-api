@@ -3,7 +3,7 @@ import {version} from "./global";
 
 export const ru = defineConfig({
         lang: 'ru-RU',
-        description: 'Асинхронный строго-типизированный фреймворк для VTubeStudio API ',
+        description: 'Асинхронный строго-типизированный фреймворк для работы с VTubeStudio API ',
 
         themeConfig: {
             nav: nav(),
@@ -38,7 +38,7 @@ export const ru = defineConfig({
             darkModeSwitchTitle: 'Переключить на тёмную тему',
             sidebarMenuLabel: 'Меню',
             returnToTopLabel: 'Вернуться к началу',
-            langMenuLabel: 'Изменить язык'
+            langMenuLabel: 'Изменить язык',
         }
     })
 
@@ -54,11 +54,11 @@ function nav(): DefaultTheme.NavItem[] {
             items: [
                 {
                     text: 'Изменения',
-                    link: 'https://github.com/timtaran/vts-api/blob/dev/CHANGELOG.md'
+                    link: 'https://github.com/timtaran/vts-api/blob/master/CHANGELOG.md'
                 },
                 {
                     text: 'Вклад',
-                    link: 'https://github.com/timtaran/vts-api/blob/dev/.github/contributing.md'
+                    link: 'https://github.com/timtaran/vts-api/blob/master/.github/contributing.md'
                 }
             ]
         }

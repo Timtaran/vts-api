@@ -36,11 +36,11 @@ function nav(): DefaultTheme.NavItem[] {
             items: [
                 {
                     text: 'Changelog',
-                    link: 'https://github.com/timtaran/vts-api/blob/dev/CHANGELOG.md'
+                    link: 'https://github.com/timtaran/vts-api/blob/master/CHANGELOG.md'
                 },
                 {
                     text: 'Contributing',
-                    link: 'https://github.com/timtaran/vts-api/blob/dev/.github/contributing.md'
+                    link: 'https://github.com/timtaran/vts-api/blob/master/.github/contributing.md'
                 }
             ]
         }
