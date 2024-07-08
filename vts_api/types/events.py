@@ -1,7 +1,9 @@
 from enum import Enum
 
+from .auth import AuthenticationResponse, AuthenticationTokenResponse
+
 
 class EventTypes(Enum):
     Any = "_ANY_EVENT_"
-    AuthenticationResponse = "AuthenticationResponse"
-    AuthenticationTokenResponse = "AuthenticationTokenResponse"
+    AuthenticationResponse = AuthenticationResponse.__name__
+    AuthenticationTokenResponse = AuthenticationTokenResponse.__name__

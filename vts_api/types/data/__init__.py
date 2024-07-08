@@ -3,7 +3,7 @@ __all__ = [
     "AuthenticationResponseData",
     "AuthenticationTokenRequestData",
     "AuthenticationTokenResponseData",
-    "APIStateResponseData"
+    "APIStateResponseData",
 ]
 
 from .auth import (

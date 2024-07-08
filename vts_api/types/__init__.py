@@ -9,6 +9,7 @@ __all__ = [
     "class_by_event_name_list",
     "BaseRequest",
     "BaseModel",
+    "Handler",
 ]
 
 from .auth import (
@@ -18,9 +19,11 @@ from .auth import (
     AuthenticationTokenResponse,
 )
 
-from .data.auth import AuthenticationRequestData, AuthenticationTokenRequestData
+from .data import AuthenticationRequestData, AuthenticationTokenRequestData
 
 from .events import EventTypes
+
+from .listener_types import Handler
 
 from .base import BaseModel, BaseRequest, BaseResponse
 
