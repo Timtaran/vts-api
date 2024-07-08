@@ -1,4 +1,4 @@
-from vts_api.types import * # noqa
+from vts_api.types import *  # noqa
 
 
 class TestTypes:
