@@ -35,5 +35,19 @@ nav:
   - Introduction:
     - 'index.md'
 
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Русский
+      link: /ru/
+      lang: ru
+
 extra_css:
   - _css/style.css
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
