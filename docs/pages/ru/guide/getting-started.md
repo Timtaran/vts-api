@@ -9,11 +9,21 @@
 pip install vts-api
 ```
 
+Последняя версия с GitHub
+```shell
+pip install -U https://github.com/Timtaran/vts-api/archive/refs/heads/master.zip
+```
+
+Разрабатывающаяся версия с GitHub
+```shell
+pip install -U https://github.com/Timtaran/vts-api/archive/refs/heads/dev.zip
+```
+
 ## Пример использования{#example}
 
 В этом примере мы обрабатываем каждый новое событие о том, что сервер отправил нам токен авторизации.
 
-```python
+```python:line-numbers {1}
 from vts_api import Connector, EventTypes 
 from vts_api.types import AuthenticationTokenResponse
 
