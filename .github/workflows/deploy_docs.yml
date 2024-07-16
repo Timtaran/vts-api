@@ -44,7 +44,7 @@ jobs:
         working-directory: docs
 
       - name: Build | Build docs site
-        run: npm run build
+        run: npm run docs:build
         working-directory: docs
 
       - name: Upload artifact
