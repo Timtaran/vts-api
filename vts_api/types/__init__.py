@@ -10,6 +10,7 @@ __all__ = [
     "BaseRequest",
     "BaseModel",
     "Handler",
+    "APIError",
 ]
 
 from .auth import (
@@ -26,6 +27,8 @@ from .events import EventTypes
 from .listener_types import Handler
 
 from .base import BaseModel, BaseRequest, BaseResponse
+
+from .error import APIError
 
 class_by_event_name_list = {
     message_type.__name__: message_type
