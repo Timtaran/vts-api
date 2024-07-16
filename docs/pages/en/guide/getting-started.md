@@ -9,6 +9,16 @@ First install the framework using command below:
 pip install vts-api
 ```
 
+Last version from GitHub
+```shell
+pip install -U https://github.com/Timtaran/vts-api/archive/refs/heads/master.zip
+```
+
+Development version from GitHub
+```shell
+pip install -U https://github.com/Timtaran/vts-api/archive/refs/heads/dev.zip
+```
+
 ## Example usage{#example}
 
 In this example, we process each new event that the server has sent us an authorization token.

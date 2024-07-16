@@ -25,3 +25,6 @@ features:
     details: Designed using aiohttp to provide asynchronous support
 ---
 
+::: warning
+The framework is still under development and may not be ready for production use!
+:::
